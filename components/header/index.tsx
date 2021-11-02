@@ -15,10 +15,10 @@ export default function Header() {
     <Box>
       <AppBar position="static">
         <Toolbar>
-          <Link href="/" className={clsx("text-color", styles.marginRight)}>
+          <Link href="/" className={clsx("textColor", styles.marginRight)}>
             <Typography variant="h5">Dashboard</Typography>
           </Link>
-          <Link href="/" className="text-color">
+          <Link href="/" className="textColor">
             <Typography variant="h5">User</Typography>
           </Link>
         </Toolbar>
