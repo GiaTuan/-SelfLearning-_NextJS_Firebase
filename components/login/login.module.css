@@ -1,0 +1,17 @@
+.signupContainer{
+    width: 500px;
+    margin:auto;
+    padding: 20px;
+}
+
+.textBoxMargin{
+    margin-bottom: 20px;
+}
+
+.signupBtn{
+    float:right;
+}
+
+.endContainer{
+    margin-bottom: 20px;
+}

@@ -1,0 +1,11 @@
+.textBoxMargin{
+    margin-bottom: 20px;
+}
+
+.addTaskFormContainer{
+    padding: 10px;
+}
+
+.addTaskBtn{
+    float: right;
+}

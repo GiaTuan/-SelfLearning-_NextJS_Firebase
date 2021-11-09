@@ -1,3 +1,11 @@
-.tasksContainer{
-    padding: 1rem;
+.tasksContainer {
+  padding: 50px;
+}
+
+.taskHeader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  margin-bottom: 20px;
 }

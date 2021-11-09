@@ -2,6 +2,7 @@ import * as React from "react";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
 import Footer from "../footer";
 import Header from "../header";
+import { useState } from "react";
 
 const theme = createTheme({
   palette: {
@@ -25,10 +26,15 @@ export interface LayoutProps {
 }
 
 const Layout = ({ children }: LayoutProps) => {
+  const [tasks,setTasks] = useState([]);
+
+  const handleTasksChanged = (tasks: any) => {
+    setTasks(tasks);
+  }
   return (
-    <ThemeProvider theme={theme} >
+    <ThemeProvider theme={theme}>
       <Header></Header>
-      <main className="container">{children}</main>
+        <main className="container">{children}</main>
       <Footer></Footer>
     </ThemeProvider>
   );

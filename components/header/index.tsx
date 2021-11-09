@@ -15,7 +15,7 @@ export default function Header() {
     <Box>
       <AppBar position="static">
         <Toolbar>
-          <Link href="/" className={clsx("textColor", styles.marginRight)}>
+          <Link href="/" className={clsx(styles.headerMarginRight,"textColor")}>
             <Typography variant="h5">Dashboard</Typography>
           </Link>
           <Link href="/" className="textColor">

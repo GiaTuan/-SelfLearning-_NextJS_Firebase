@@ -1,6 +1,6 @@
 import { Paper } from "@mui/material";
 import * as React from "react";
-import styles from "./tasks.module.css";
+import styles from "../tasks.module.css";
 export interface DoingTasksProps {}
 
 const DoingTasks = (props: DoingTasksProps) => {
