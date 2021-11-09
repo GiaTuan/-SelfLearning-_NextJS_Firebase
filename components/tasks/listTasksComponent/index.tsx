@@ -1,7 +1,6 @@
 import { Divider, List, ListItem, ListItemText } from "@mui/material";
 import * as React from "react";
 import { Task } from "../../../model/Task";
-import { TaskStatus } from "../../../model/TaskStatus";
 import styles from "../tasks.module.css";
 
 export interface ListTasksProps {
@@ -16,7 +15,7 @@ const ListTasks = ({ tasks }: ListTasksProps) => {
         // eslint-disable-next-line react/jsx-key
         <>
           <ListItem>
-            <ListItemText primary={value.name} />
+            <ListItemText primary={value.title} />
           </ListItem>
           <Divider />
         </>
